@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #002db3;
+    background: #004080;
 }
 
 .clock{
@@ -92,7 +92,27 @@ body{
     width: 2px;
     height: 150px;
     background: #fff;
-    z-index: 15;
+    z-index: 12;
     border-radius: 6px 6px 0 0;
+}
+
+.clock .digital{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background: #0073e6;
+    width: 150px;
+    height: auto;
+    z-index: -2;
+    top: 55vh;
+    box-shadow: inset 5px 0px 10px rgba(0, 0, 0, 0.3),
+                inset -5px 0px 10px rgba(0, 0, 0, 0.3),
+                inset 0px 5px 5px rgba(0, 0, 0, 0.3),
+                inset 0px -5px 5px rgba(0, 0, 0, 0.3);
+}
+
+@font-face{
+    font-family: 'Digital-7';
+    src: url('digital-7.ttf');
 }
 
