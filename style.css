@@ -102,7 +102,7 @@ body{
     position: absolute;
     background: #0073e6;
     width: 150px;
-    height: auto;
+    height: 39px;
     z-index: -2;
     top: 55vh;
     box-shadow: inset 5px 0px 10px rgba(0, 0, 0, 0.3),
